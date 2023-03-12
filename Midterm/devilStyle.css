@@ -118,6 +118,7 @@ li ul li a {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     padding-top: 100px;
+    padding-bottom: 50px;
     box-sizing: border-box; 
 }
 
