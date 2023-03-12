@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title> Devil Designs </title>
+    <meta name='viewport' content="width=devide-width, initial-scale=1">
+    <link rel="stylesheet" href="Roanstyle.css">
+    <style type="text/css">
+        @media screen and (max-width: 1300px) {
+            #openBanner {
+                font-size: 100px; 
+                padding-top: 300px; 
+            }
+        }
+        @media screen and (max-width: 1100px) {
+            #navBar {
+                font-size: 40px;
+            }
+            #navItem {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            #openBanner {
+                font-size: 85px; 
+                padding-top: 250px; 
+            }
+            #textBlock {
+                font-size: 20px; 
+            }
+
+        }
+
+        .footer {
+            width:100%;
+            max-height:20px;
+            font-size:10px;
+            color:rgb(183, 29, 29);
+            background-color:white;
+            bottom:0;
+            position:fixed;
+            padding-left:20px;
+            padding-bottom:10px;
+        }
+
+        .float-container {
+            padding: 20px; 
+        }
+
+        .float-child {
+            text-align: center; 
+            width: 45% ;
+            float: left; 
+            padding: 20px;   
+        }
+    </style>
+</head>
+<body id="standardPage">
+    <header>
+        <ul id="navBar">
+        <li><a id="navLogo" href = "homepage.html"><img src="DevilDesigns.png" style="width:150px" alt="DevilDesignLogo"></a></li>
+        <li>
+            <a id="navItem" href="meetvocals.html">Apparel</a>
+            <ul id="submenu">
+                <li><a href="T-shirt.html">T-Shirts</a></li>
+                <li><a href="Sweatshirts.html">Sweatshirts</a></li>
+                <li><a href="Hats.html">Hats</a></li>
+                <li><a href='#'>Order Now</a></li>
+            </ul>
+        </li>
+        <li><a id="navItem" href="about.html">About Us</a></li>
+        <li><a id="navItem" href="contact.html">Contact Us</a></li>
+        </ul>
+        <div id="navBorder"></div>
+    </header>
+    <div id="blankSpace"></div>
+    <div id="openBanner" > Hats </div>
+
+    <div class = "float-container"> 
+
+        <div class = float-child> 
+            <img src="Redhat.png" alt="Red Hat" width = 300px> 
+            <br> <br> Red Hat <br> $30 <br> <br> <br> 
+            <img src="Whitehat.png" alt="White Hat" width = 300px> 
+            <br> <br> White Hat <br> $30 <br> 
+        </div>
+        <div class = float-child> 
+            <img src="Bluehat.png" alt="Blue Hat" width = 300px> 
+            <br> <br> Blue Hat <br> $30 <br> <br> <br>
+            <img src="Tanhat.png" alt="Tan Hat" width = 300px> 
+            <br> <br> Tan Hat <br> $30 <br> <br> <br>
+        </div>
+        <div class = float-child> 
+            
+        </div>
+    </div>
+   
+    <div id="blankSpaceSmall"></div>
+    <div class="footer">
+        <p>Copyright &copy; 2023 Devil Designs</p>
+    </div>
+</body>
+</html>
