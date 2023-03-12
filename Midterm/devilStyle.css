@@ -1,0 +1,146 @@
+
+#navBar {
+    height: 120px; 
+    top:0;
+    margin:0;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    position: fixed;
+    align-self: center;
+    list-style-type: none; /* removes bullet points */
+    display: flex; /* displays items horizontally */
+    /* justify-content: center; */
+    vertical-align: center;
+}
+
+@keyframes swipe {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+#navLogo {
+    padding-left: 0px;
+    padding-right: 30px;
+    box-sizing: border-box;        
+}
+
+#navItem {
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right: 30px;
+    box-sizing: border-box;        
+}
+
+a { text-decoration: none; color: rgb(183, 29, 29); font-weight: bold}
+a:hover {color:rgb(161, 26, 26); text-decoration: none}
+
+li ul {
+    display: none;
+    position: relative;  
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+li:hover ul {
+    display: block;
+}
+  
+li ul li {
+    display: block;
+}
+
+li ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#navBorder {
+    margin-top:119px;
+    width:100%;
+    height:2px;
+    background-color: black;
+    animation: swipe 3s ease-in-out infinite;
+    position:fixed;
+}
+
+
+#blankSpace {
+    width: 100%;
+    height: 100px;
+}
+
+#blankSpaceSmall {
+    width: 100%;
+    height: 30px;
+}
+
+#normalBanner {
+    display:block;
+    margin:auto;
+    background-size:cover;
+    max-width: 90%;
+    box-sizing: border-box; 
+
+}
+#openBanner {
+    background-image: url(devil.png);  
+    max-width: 100%;
+    height:auto; 
+    height:300px;
+    text-align:center; 
+    font-size: 150px; 
+    font-weight: bold;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-top: 100px;
+    box-sizing: border-box; 
+}
+
+#textBlock {
+    font-size: 30px; 
+    text-align:center;
+    font-weight: bold;
+    color:white;
+    padding: 30px;
+    line-height: 1.2em;
+    box-sizing: border-box;
+}
+
+#bookVocals {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 700px;
+    max-width: 400px;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(124, 115, 250);
+}
+#bottomSub {
+    max-height: 250px;
+    max-width: 100%;
+    background-color:white;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(183, 29, 29);
+}
+
+#standardPage {
+    background-color:rgb(183, 29, 29); 
+    margin:0;
+    font-family: Didot;
+    color:white;
+}
+#signup {
+    font-size: 50px;
+}
