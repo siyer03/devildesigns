@@ -90,6 +90,19 @@ li ul li a {
     box-sizing: border-box; 
 }
 
+#smallBanner {
+    background-image: url(devil.png);  
+    max-width: 100%;
+    height:auto; 
+    height:200px;
+    text-align:center; 
+    font-size: 50px; 
+    font-weight: bold;
+    color:white;
+    padding-top: 75px;
+    box-sizing: border-box; 
+}
+
 #openBanner {
     position: relative;
     top:20px;
