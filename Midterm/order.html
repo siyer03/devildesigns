@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title> Devil Designs </title>
-    <meta name='viewport' content="width=devide-width, initial-scale=1">
+    <meta name='viewport' content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="devilStyle.css">
     <style type="text/css">
         @media screen and (max-width: 1100px) {
@@ -127,8 +127,9 @@ function td(content, className="")
     </header>
 	
 <div id="blankSpace"></div>
-
-<h1>Devil Designs Order Form</h1>
+<div id="smallBanner">
+    <h1>Devil Designs Order Form</h1>
+</div>
 <form>
 
 <p class="userInfo"><label>First Name*:</label> <input type="text"  name='fname' /></p>
@@ -515,8 +516,9 @@ function show_details()
 	if (overall_validation())
 	{
 		var new_window = window.open();
-		
-        new_window.document.write("<title>Order Confirmation</title>")
+	new_window.document.write("<html><head><title>Order Confirmation</title></head>");
+        new_window.document.write("<title>Order Confirmation</title>");
+	new_window.document.write("<body style='background-color: rgb(183, 29, 29); color: white;margin:0;font-family: Didot;'>");
 		new_window.document.write("<h1>Devil Designs Order Confirmation</h1>");
 		new_window.document.write('<table>');
 		new_window.document.write("<tr><th>Item &nbsp;&nbsp;</th><th>Quantity &nbsp;&nbsp;</th><th>Item Total</th></tr>");
@@ -554,6 +556,7 @@ function show_details()
         new_window.document.write("<br><br> We accept the following payment methods: Visa, Mastercard, Discover, American Express, Check");
         new_window.document.write("<br><br> Please save this confirmation page for your records.");
         new_window.document.write("<br><br> Thank you for choosing Devil Designs!");
+	new_window.document.write("</body></html>");
 	}
 }
 
