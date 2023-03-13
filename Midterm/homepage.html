@@ -33,6 +33,23 @@
             padding-bottom:10px;
         }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#navBar').hover(
+                function(){
+                    $('#navBorder').animate({
+                        width: '100%'
+                    }, 200);
+                },
+                function(){
+                    $('#navBorder').animate({
+                        width: '0%'
+                    }, 200);
+                }
+            );
+        });
+    </script>
 </head>
 <body id="standardPage">
     <header>
