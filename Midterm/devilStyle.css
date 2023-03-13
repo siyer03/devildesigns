@@ -115,9 +115,7 @@ li ul li a {
     font-size: 50px; 
     font-weight: bold;
     color:white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    padding-top: 100px;
+    padding-top: 75px;
     box-sizing: border-box; 
 }
 
