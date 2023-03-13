@@ -138,21 +138,6 @@ li ul li a {
     }
 }
 
-/* #openBanner {
-    background-image: url(devil.png);  
-    max-width: 100%;
-    height:auto; 
-    height:300px;
-    text-align:center; 
-    font-size: 150px; 
-    font-weight: bold;
-    color:white;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    padding-top: 100px;
-    box-sizing: border-box; 
-} */
-
 #textBlock {
     font-size: 30px; 
     text-align:center;
@@ -163,16 +148,20 @@ li ul li a {
     box-sizing: border-box;
 }
 
-#bookVocals {
-    margin-left: auto;
-    margin-right: auto;
-    max-height: 700px;
-    max-width: 400px;
-    background-color:white;
-    text-align: center;
+#smallBanner {
+    background-image: url(devil.png);  
+    max-width: 100%;
+    height:auto; 
+    height:200px;
+    text-align:center; 
+    font-size: 50px; 
     font-weight: bold;
-    color:rgb(124, 115, 250);
+    color:white;
+    padding-top: 75px;
+    box-sizing: border-box; 
 }
+
+
 #bottomSub {
     max-height: 250px;
     max-width: 100%;
